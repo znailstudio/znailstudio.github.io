@@ -1,0 +1,61 @@
+body {
+	font-family: Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #EDDCDE;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+	font-size: 20px;
+	font-family: Georgia, serif;
+}
+.logo img {
+    max-width: 250px	
+}
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #333;
+}
+
+nav a:hover {
+	color: #ff6600;
+}
+
+section#about {
+	background-color: #f9f9f9;
+	padding: 30px;
+	text-align: center;
+	margin: 40px;
+	line-height: 200%
+  
+}
+
+	
+footer {
+	background-color: #A29C9D;
+	padding: 50px;	
+	display: flex;
+	justify-content: space-around;
+	align-items: left;
+}
